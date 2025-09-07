@@ -1,0 +1,186 @@
+(footprint "FSM8JSMATR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "smd button ")
+	(property "Reference" "REF**"
+		(at -4.5 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a847fa3c-a53a-44ef-b59b-785e871b5d40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BTN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d6a4eff5-6ae9-4c66-92e9-5a534917e2e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c19bd026-02f3-4784-bc72-a7811fa39ea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cada4eb-9dfe-42e1-bcda-244692ae8e42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95de697c-949c-4d6f-a328-a4cf60b5d3dd")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end -3.5 -3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dde8647e-e5eb-4da7-99e2-4231793612fe")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end 3.5 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4696f1ba-eb09-423f-8844-8d5dbca6547c")
+	)
+	(fp_line
+		(start 3.5 3)
+		(end -3.5 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0697612a-f58d-44b7-bdf2-15fdb433e2bd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f4a71b7e-872a-4bc2-81c9-a386cd72fe2c")
+	)
+	(fp_line
+		(start -3.25 -6.25)
+		(end 3.25 -6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3e2775d-9298-423b-b573-d79e8e550586")
+	)
+	(fp_line
+		(start -3.25 6.25)
+		(end -3.25 -6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad1039d4-a87c-4df8-a3fd-3dc7114ce1ca")
+	)
+	(fp_line
+		(start 3.25 -6.25)
+		(end 3.25 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c83ccad-d755-4245-86ce-80ce999143b8")
+	)
+	(fp_line
+		(start 3.25 6.25)
+		(end -3.25 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d37e0780-6466-4206-b156-7cff9dfa56a1")
+	)
+	(pad "1" smd rect
+		(at -2.25 -4.75)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3168173e-a409-49e3-90f8-43c028902f53")
+	)
+	(pad "1" smd rect
+		(at -2.25 4.75)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "21170995-fe15-4248-92c7-5b0b864ffe1c")
+	)
+	(pad "2" smd rect
+		(at 2.25 -4.75)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1fc7f1ee-242d-4d9b-ba89-a5ae0fa1d3db")
+	)
+	(pad "2" smd rect
+		(at 2.25 4.75)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5999d11c-58cb-4dd5-b397-e12b800d8014")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

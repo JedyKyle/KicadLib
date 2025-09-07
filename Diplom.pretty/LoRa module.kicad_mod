@@ -1,0 +1,193 @@
+(footprint "LoRa module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a59f7b0c-7a01-4d0b-b7e2-c099a5670080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "E22-900T22D"
+		(at 2.4 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c5c0b09-fbd4-43cd-9e94-9d33de50165f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6103d73f-e1f6-456a-9d5e-aee146b2d5a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LORA MODULE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72e690e9-2d6a-44f9-bccf-592f35d01a16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.1 19.7)
+		(end -8.1 32.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd4a00a8-bbe5-42e9-b27a-aa804171020c")
+	)
+	(fp_rect
+		(start 11 -16.3)
+		(end -10 19.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6b9520bc-bac8-450d-aa0c-7380aa13bb31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "711e8824-424f-4aec-aa69-9f9805c20f7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 8.12 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "70c3c86f-cfa7-499c-81e1-b4ddd09653ee")
+	)
+	(pad "2" thru_hole oval
+		(at 5.56 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "6bb40b45-19a3-434e-ac59-aab28fb61bf6")
+	)
+	(pad "3" thru_hole oval
+		(at 3.02 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f34aff20-9cfc-46ce-bd5c-b1dab333fafb")
+	)
+	(pad "4" thru_hole oval
+		(at 0.46 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "502603d9-e410-45fb-a7f2-7c04af7d8c69")
+	)
+	(pad "5" thru_hole oval
+		(at -2.04 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a144e4ba-b1cd-4d24-8e66-553e9006d3cc")
+	)
+	(pad "6" thru_hole oval
+		(at -4.6 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3074a37f-3703-45aa-9803-bd798f4008bb")
+	)
+	(pad "7" thru_hole oval
+		(at -7.18 -14.8 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "100e6500-6175-46df-afe7-791a88a85413")
+	)
+	(pad "8" thru_hole oval
+		(at 2.36 16.7 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5e04075f-db50-40d9-a688-16a5399ffd30")
+	)
+	(pad "9" thru_hole oval
+		(at 4.92 16.7 270)
+		(size 2.54 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0ecec388-2ade-4e6f-bca1-0b2109bc50a0")
+	)
+	(pad "10" thru_hole roundrect
+		(at 7.5 16.7 270)
+		(size 2.54 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "6bd9611d-c0de-4ba9-af1c-8312656b0a4c")
+	)
+	(group ""
+		(uuid "4457fb0a-d8bd-4296-81ce-187bbff9afc9")
+		(members "0ecec388-2ade-4e6f-bca1-0b2109bc50a0" "100e6500-6175-46df-afe7-791a88a85413"
+			"3074a37f-3703-45aa-9803-bd798f4008bb" "502603d9-e410-45fb-a7f2-7c04af7d8c69"
+			"5e04075f-db50-40d9-a688-16a5399ffd30" "6b9520bc-bac8-450d-aa0c-7380aa13bb31"
+			"6bb40b45-19a3-434e-ac59-aab28fb61bf6" "6bd9611d-c0de-4ba9-af1c-8312656b0a4c"
+			"70c3c86f-cfa7-499c-81e1-b4ddd09653ee" "a144e4ba-b1cd-4d24-8e66-553e9006d3cc"
+			"f34aff20-9cfc-46ce-bd5c-b1dab333fafb" "fd4a00a8-bbe5-42e9-b27a-aa804171020c"
+		)
+	)
+	(embedded_fonts no)
+)
