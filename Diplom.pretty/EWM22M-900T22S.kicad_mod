@@ -89,6 +89,17 @@
 		(layer "F.SilkS")
 		(uuid "fdd0f325-2df0-4bf1-a744-6e296373c70d")
 	)
+	(fp_rect
+		(start 0 -14.05)
+		(end 20.025 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "55406e2b-74a4-40a5-a0c7-ea8456a5d89f")
+	)
 	(pad "1" smd rect
 		(at 19 -14)
 		(size 0.85 1.8)
@@ -234,7 +245,7 @@
 		(uuid "5407b7d2-efc3-4528-a7c6-6a3ae5bb5490")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Gleb/OneDrive/Диплом/Kicad/E49-xxxT20S(3D).step"
+	(model "B:/onerdive/OneDrive/Диплом/Kicad/E49-xxxT20S(3D).step"
 		(offset
 			(xyz 0.5 0 0)
 		)
