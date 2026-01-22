@@ -64,8 +64,8 @@
 		(start -1.25 -1.65)
 		(end -1.55 -1.65)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "f434f387-51dc-4c25-817e-54afc7646a0a")
